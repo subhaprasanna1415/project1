@@ -1,0 +1,363 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+#header{
+    height:130px;
+    background-color: black!important;
+    
+}
+.header .img{
+    margin-left: 50px;
+}
+
+
+@media screen and (min-width: 480px) {
+    #header .navbar-brand .img {
+        width: 120px;   
+     }
+     .nav-link{
+        color: black;
+     }
+  }
+  .owl-carousel{
+    background-color: black;
+  }
+  @media screen and (min-width: 992px) {
+    #header .img {
+        width: 25%;
+        }
+  }
+nav .navbar-toggler{
+    color: white;
+}
+
+
+#header .nav-item{
+    margin-left: 20px;
+}
+#header .nav-link{
+    color: white;
+    margin-left: 10px;
+
+
+}
+.item:hover{
+    transform: translate(0px,-10px);
+    transition-delay: 0s;
+    
+
+}
+#sub{
+    justify-content: end;
+}
+#releases{
+    background-color: black;
+}
+#releases img{
+    border-radius: 12px;
+}
+#releases h1{
+    color: white;
+    padding-left: 15px;
+    font-size: 30px;
+    font-family:'Noto-sans';
+}
+
+#releases .item {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 12px;
+
+}
+@media screen and (max-width: 992px) {
+    #releases .item p {
+      font-size:15px;
+    }
+  }
+#footer img .icon{
+  background-color: black;
+}
+#footer h1{
+font-size: 20px;
+font-family: serif;
+text-align: center;
+color: orange;
+}
+#footer p{
+    font-size: 18px;
+    text-align: center;
+    font-family: serif;
+
+    }
+    #footer  .bi-facebook{
+        color: white;
+        height: 20px;
+        width: 30vw;
+        background-color: #ff6d2e;
+    }
+#myaha .bi img{
+    color: orange; 
+width: 100px;
+
+
+}
+.icons .fa-brands{
+    color: #ffffff;
+    font-size: 33px;
+    margin-top: 10px;
+}
+#myaha{
+    height:100vh;
+    padding-top: 40px;
+}
+
+#cau-card-deep{
+    background-image: url("assets/cou3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: gray;
+}
+
+#cau-card-deep .img{
+    background-color: transparent;
+}
+
+.icon{
+    color: white;
+    font-size: 12px;
+    height:75px;
+    margin-left:30px ;
+    border-radius: 28px;
+}
+.icon .bi{
+    background-color: gray;
+}
+#cau-card-deep-chef{
+    background-image: url("https://image-resizer-cloud-api.akamaized.net/image/A7C4A8B8-B112-4C74-8AFC-6128093F71FC/0-16x9.jpg?width=2220&updatedTime=2024-04-05T13:39:03Z&dt=Web");
+    background-size: cover;
+    height: 70vh;
+    background-color: gray;
+}
+
+#cau-card-deep-chef .img{
+    background-color: transparent;
+}
+#cau-card-bre{
+    background-image: url("https://image-resizer-cloud-api.akamaized.net/image/F94D071B-CB33-4F9A-8568-59EE1D9D6AFD/0-16x9.jpg?width=2220&updatedTime=2024-03-21T02:52:22Z&dt=Web");
+    background-size: cover;
+    height: 70vh;
+    background-color: gray;
+}
+@media screen and (max-width: 600px) {
+    .matt iframe {
+       width: 430px;
+       
+     }
+     .mat{
+        padding: 10px;
+     }}
+     @media screen and (max-width: 600px) {
+     #cau-card-bre,#cau-card-deep,#cau-card-keeda,#cau-card-kota,#cau-card-deep-chef,#cau-card-pin,#cau-card-deep-amb,#cau-card-bub{
+        height: 40vh!important;
+
+     }
+
+     #cau-card-sou{
+        height: 40vh!important;
+     }
+    
+    }
+    #cau-card-sou{
+        background-image: url("https://image-resizer-cloud-api.akamaized.net/image/DEC8FF1C-6B9B-464F-AF41-50C26D980D25/0-16x9.jpg?width=2220&updatedTime=2024-03-21T01:04:50Z&dt=Web");
+        background-size: cover;
+        height: 70vh;
+        background-color: gray;
+    }
+    #cau-card-sou .img{
+        background-color: transparent;
+    }
+    
+     
+#cau-card-deep{
+    height:70vh;
+
+}#cau-card-deep-amb{
+    background-image: url("https://image-resizer-cloud-api.akamaized.net/image/4BBC7A07-E7FD-4E6F-8780-47E2DF4D93B4/0-16x9.jpg?width=2210&updatedTime=2024-03-21T00:40:47Z&dt=Web");
+    background-size: cover;
+    background-color: gray;
+    height: 60vh;
+}
+#cau-card-deep-amb .img{
+    background-color: transparent;
+}
+
+ @media screen and (max-width: 1200px) {
+     .matt .video {
+      width: 550px;
+      
+ }
+ #cau-card-deep-amb{
+    height:70vh;
+}
+ .mat{
+    padding: 30px;
+ }}     
+#cau-card-bre .img{
+    background-color: transparent;
+}
+
+#cau-card-bub{
+    background-image: url("https://image-resizer-cloud-api.akamaized.net/image/95DBA381-B11B-4EE8-8F82-88030F344350/0-16x9.jpg?width=730&updatedTime=2024-03-29T15:05:37Z&dt=Web");
+    background-size: cover;
+    height: 70vh;
+    background-color: gray;
+}
+#cau-card-bub .img{
+    background-color: transparent;
+}
+#cau-card-pin{
+    background-image: url("https://image-resizer-cloud-api.akamaized.net/image/51FAFBD7-A3FA-4EF0-9296-2A2C676485D5/0-16x9.jpg?width=2220&updatedTime=2024-04-05T16:10:49Z&dt=Web");
+    background-size: cover;
+    height: 70vh;
+    background-color: gray;
+}
+#cau-card-pin .img{
+    background-color: transparent;
+}
+#cau-card-keeda{
+    background-image: url("https://image-resizer-cloud-api.akamaized.net/image/9E3E27AF-4BB8-44C9-8381-784A2080C6A1/0-16x9.jpg?width=2220&updatedTime=2024-03-29T15:07:06Z&dt=Web");
+    background-size: cover;
+    height: 70vh;
+    background-color: gray;
+}
+#cau-card-keeda .img{
+    background-color: transparent;
+}
+#cau-card-kota{
+    background-image: url("https://image-resizer-cloud-api.akamaized.net/image/29987B69-A839-403F-A57E-20A348C03873/0-16x9.jpg?width=2220&updatedTime=2024-03-22T15:12:06Z&dt=Web");
+    background-size: cover;
+    height: 70vh;
+    background-color: gray;
+}
+#cau-card-kota .img{
+    background-color: transparent;
+}
+
+
+#btn{
+    background-color:#ff6d2e;
+}
+#myaha button{
+    background-color: #ff6d2e;
+}
+#sub button{
+    background-color: #ff6d2e;
+}
+#subscribenow {
+    background-image: radial-gradient(#ff6d2e,white);
+
+
+}
+#subscribenow .head{
+    font-style: italic;
+    color: black;
+    font-weight: 500;
+    font-style: italic;
+    font-family: Roboto;
+    text-align: center;
+
+}
+#subscribenow .card-d{
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+color: #ffffff;
+margin: 20px;
+}
+
+.card  .headingg{
+    color: white;
+    font-size: 17px;
+    background-color: brown;
+    width: 10vw;
+    padding-left: 2px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.flex{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#exampleModal2 .modal-body {
+background-image: white;
+}
+#body .rate{
+    background-image: none;
+    
+}
+#Payment{
+    background-image: linear-gradient(to left,#eb8934  0% 40%,#594636);
+    height: 100vh;
+}
+#Payment .accordion .box{
+ margin:20px ;
+}
+#Payment .card{
+    background-image: linear-gradient(to left,#eb8934  0% 40%,#594636);
+}
+#sp{
+    height: 100vh;
+    background-image: linear-gradient(to left, #eb8934, #594636 100% 0%);
+    background-size: cover;
+
+}
+#sp .card{
+    height: 50vh;
+    width: 40vw;
+    background-image: linear-gradient(to top, #252627, black 50% 60%);
+    box-shadow: 20px;
+    padding:20px ;
+}
+#sp .card h1{
+text-align: left;
+font-size: 30px;
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 30px;
+
+}
+#sp .card h1 bi{
+    color: white;
+}
+#sp .card input{
+padding: 10px;
+height: 40px;
+border-radius: 8px;
+border-color: white;
+border-width: 2px;
+margin: 15px;
+}
+.otpverify{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    color: white;
+
+}
+.btn{
+    color: white;
+    padding:10px;
+    background-color: #82eec1;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+}
